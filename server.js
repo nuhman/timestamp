@@ -48,7 +48,7 @@ app.get("/:date", (req, res) => {
     // it is a date
     if ( isNaN( date.getTime() ) ) {  // d.valueOf() could also work
         // date is not valid
-        re.send(error);
+        res.send(error);
     }
     else {
         // date is valid        
