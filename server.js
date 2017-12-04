@@ -41,12 +41,14 @@ app.get("/:date", (req, res) => {
         unix = unix/1000;
     }
     var data = {"unix":  unix, "natural": natural};
+    var error = {"unix":  null, "natural": null};
     data = JSON.parse(JSON.stringify(data));    
+    error = JSON.parse(JSON.stringify(error));    
     console.log(typeof data);
     // it is a date
     if ( isNaN( date.getTime() ) ) {  // d.valueOf() could also work
         // date is not valid
-        re.send(null);
+        re.send(error);
     }
     else {
         // date is valid        
