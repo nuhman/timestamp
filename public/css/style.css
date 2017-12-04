@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Play');
+body{
+    background: #27ae60;
+    color: #fff;
+    font-family: 'Play', sans-serif;
+}
+.heading{
+    text-align: center;
+}
+h4{
+    color: #000;
+}
+.readme{
+    padding: 20px;
+    background: #2ecc71;
+    font-size: 20px;    
+}
+a{
+    color: #fff;
+}
+a:link, a:visited, a:hover, a:active{
+    color: #fff;
+}
