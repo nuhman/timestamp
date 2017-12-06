@@ -11,8 +11,8 @@ App deployed on [heroku](http://time-fcc.herokuapp.com/)
  * If it does not contain a date or Unix timestamp, it returns null for those properties.  
 
 **Example Usage**:  
-`https://timestamp-ms.herokuapp.com/December%2015,%202015`  
-`https://timestamp-ms.herokuapp.com/1450137600`  
+`https://time-fcc.herokuapp.com/December%2015,%202015`  
+`https://time-fcc.herokuapp.com/1450137600`  
   
 **Example Output**:  
 `{ "unix": 1450137600, "natural": "December 15, 2015" }`
